@@ -1,0 +1,16 @@
+* {
+    color:blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+img {
+    padding: 5px;
+}
+
+li {
+    right: 50%;
+}

@@ -1,0 +1,60 @@
+.parent {
+    background-color: #e7e7e7;
+    height: 200vh
+  }
+   
+  .child-one {
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      height: 40px;
+      text-indent: 20%;
+      width: 100%;
+      color: rgb(70, 70, 70)  
+      
+  }
+
+  .child-two {
+      background-color: rgb(194, 194, 194);
+      position: fixed;
+      height: 30px;
+      text-indent: 50%;
+      color: rgb(49, 49, 49);
+      margin: 5px;
+      width: 200px;
+      left: 43%;
+  }
+  
+  .child-three {
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      width: 500px;
+      height: 200px;
+      top: 75px;
+      left: 400px;
+      bottom: 75px;
+  }
+
+  .child-four {
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      width: 500px;
+      height: 500px;
+      top: 110px;
+      left: 400px;
+  }
+
+  .child-five {
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      width: 500px;
+      height: 500px;
+      top: 150px;
+      left: 400px;
+  }
+
+  .child-six {
+      position: absolute;
+      color: black;
+      left: 1000px;
+      top: 105px;
+  }

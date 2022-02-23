@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: rgb(201, 255, 255);
+}
+
+.container {
+  background-color: rgb(201, 255, 255);
+  height: 400px;
+  width: 300px;
+  margin-top: 80px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+.top {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100px/100px;
+  padding: 0;
+  z-index: 2;
+}
+
+.bottom { 
+  width: 300px;
+  height: 350px;
+  padding: 0;
+  background-color: black;
+  margin-bottom: 40px;
+  margin-top: -50px;
+  z-index: 5;
+  position: relative;
+}
+
+.handle {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin-left: 150px;
+  margin-top: -370px;
+  background-color: cornflowerblue;
+  z-index: 3;
+  position: relative;
+
+}
+
+.handletwo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: rgb(201, 255, 255);
+  z-index: 4;
+  position: absolute;
+}
+
+.canvastwo {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: rgb(197, 238, 181);
+}
+
+.left {
+  width: 250px;
+  height: 300px;
+  border-radius: 300px;
+  background-color: red;
+  margin-left: 300px;
+  margin-top: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+.right {
+  width: 250px;
+  height: 300px;
+  border-radius: 300px;
+  background-color: red;
+  margin-left: 400px;
+  margin-top: 120px;
+  position: absolute;
+  z-index: 2;
+}
+
+.stem {
+  width: 25px;
+  height: 100px;
+  background-color: rgb(88, 60, 33);
+  position: absolute;
+  margin-left: 462px;
+  margin-top: 50px;
+}
+
+.face {
+  width: 225px;
+  height: 225px;
+  border-radius: 250px;
+  margin-left: 362px;
+  margin-top: 150px;
+  background-color: rgb(255, 0, 0);
+  z-index: 3;
+  position: absolute;
+}
+
+.eye1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 80px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+.eye2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-top: -20px;
+  background-color: black;
+}
+
+.nose {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.nose2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-left: 105px;
+  margin-top: -20px;
+  background-color: rgb(255, 0, 0);
+}
+
+.canvasthree {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: rgb(214, 121, 179);
+}
+
+.box {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 130px;
+}
+
+.blue {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(170, 243, 243);
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+}
+
+.blue1 {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(170, 243, 243);
+  position: absolute;
+  margin-top: 70px;
+  z-index: 3;
+}
+
+.yellow {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(243, 245, 158);
+  border-radius: 25px;
+  margin-top: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 240px;
+  position: absolute;
+  z-index: 4;
+}
