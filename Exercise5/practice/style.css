@@ -4,13 +4,13 @@ body {
 
 .heading {
     color: black;
-    font-size: 15px;
+    font-size: 25px;
     transition: all 0.5s;
 }
 
 .heading:hover {
     color: azure;
-    font-size: 25px;
+    font-size: 100px;
 }
 
 .box {
