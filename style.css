@@ -1,4 +1,57 @@
-.p {
+.topnav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: cornsilk;
+    background-color: rgb(152, 197, 83);
+    overflow: hidden;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropbutton {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: cornsilk;
+    padding: 10px 20px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 78, 40);
+    min-width: 140px;
+    z-index: 1;
+}
+
+.fa {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    background-color: rgb(157, 233, 155);
+    display: block;
+}
+
+.dropdown-content:hover {
+    background-color: rgb(94, 189, 94);
+}
+
+.dropdown:hover .dropbutton {
+    background-color: rgb(40, 78, 40);
+}
+
+.home {
+    text-align: center;
+}
+
+.jif {
+    float: left;
 }
