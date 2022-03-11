@@ -1,0 +1,25 @@
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.response {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(32, 32, 32);
+    text-align: justify;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 250px;
+    line-height: 25px;
+}
+
+* {
+    background-color: rgb(242, 245, 255);
+}

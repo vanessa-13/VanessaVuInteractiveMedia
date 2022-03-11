@@ -1,0 +1,29 @@
+
+.head {
+    font-size: 50px;
+    color: rgb(228, 227, 178);
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subhead {
+    font-size: 25px;
+    color: rgb(228, 227, 178);
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.bugs {
+    position: absolute;
+}
+
+.flowers {
+    position: absolute;
+}
+
+.sunflowers {
+    position: absolute;
+}

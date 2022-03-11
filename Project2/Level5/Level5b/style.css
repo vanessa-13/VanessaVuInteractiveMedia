@@ -20,3 +20,20 @@
     color: rgb(78, 139, 192);
     padding: 10px;
 }
+
+.heading {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    color: white;
+    padding: 30px;
+}
+
+.subhead {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    color: white;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}

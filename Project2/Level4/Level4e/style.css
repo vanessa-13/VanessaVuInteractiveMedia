@@ -1,0 +1,59 @@
+.back {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 139, 192);
+    padding: 10px;
+}
+
+.next {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 139, 192);
+    padding: 10px;
+}
+
+.home {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 139, 192);
+    padding: 10px;
+}
+
+* {
+    background-color: black;
+}
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: beige;
+    background-color: black;
+}
+
+.subhead {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: beige;
+    background-color: black;
+}
+
+.spaced {
+    letter-spacing: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: beige;
+    background-color: black;
+    line-height: 100px;
+    text-align: center;
+}
+
+.close {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: black;
+    color:rgb(134, 158, 180)
+}
+
+.tight {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: beige;
+}

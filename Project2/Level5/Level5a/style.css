@@ -21,10 +21,94 @@
     padding: 10px;
 }
 
+.heading {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.subhead {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.text {
+    letter-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(193, 214, 224);
+    background-color: black;
+    line-height: 100px;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
 .snowball {
     height: 500px;
     width: 500px;
     border-radius: 1000px;
-    background-color: white;
-    position: relative;
+    background-color: rgb(230, 238, 255);
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.snowball1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    background-color: rgb(230, 238, 255);
+    margin: 600px 500px 500px 700px;
+    position: absolute;
+    z-index: 2;
+}
+
+.snowball2 {
+    height: 400px;
+    width: 400px;
+    border-radius: 1000px;
+    background-color: rgb(230, 238, 255);
+    margin: 1000px 500px 0px 1100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.snowball3 {
+    height: 400px;
+    width: 400px;
+    border-radius: 1000px;
+    background-color: rgb(230, 238, 255);
+    margin: 1300px 500px 100px 400px;
+    position: absolute;
+    z-index: 2;
+}
+
+.snowball:hover {
+    opacity: 0%;
+    animation-delay: 1000ms;
+}
+
+.snowball1:hover {
+    opacity: 0%;
+    animation-delay: 1000ms;
+}
+
+.snowball2:hover {
+    opacity: 0%;
+    animation-delay: 1000ms;
+}
+
+.snowball3:hover {
+    opacity: 0%;
+    animation-delay: 1000ms;
 }
