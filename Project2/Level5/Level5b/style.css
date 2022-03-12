@@ -23,17 +23,27 @@
 
 .heading {
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
-    color: white;
+    text-align: center;
+    color: rgb(148, 154, 180);
     padding: 30px;
 }
 
 .subhead {
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
-    color: white;
+    text-align: center;
+    color: rgb(103, 104, 110);
     padding-bottom: 30px;
     padding-right: 30px;
+}
+
+.text {
+    font-size: 150px;
+    color: rgb(148, 154, 180);
+    transition: font-size 3s, color 3s;
+}
+
+.text:hover {
+    color: rgb(103, 104, 110);
+    font-size: 50px;
+    transition-timing-function: ease-in-out;
 }
