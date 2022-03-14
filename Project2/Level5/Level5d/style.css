@@ -24,13 +24,54 @@
 .heading {
     font-size: 25px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(133, 152, 187);
     padding: 20px;
 }
 
 .subhead {
     font-size: 15px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(133, 152, 187);
     padding-bottom: 30px;
+}
+
+.layer0 {
+    color: rgb(133, 152, 187);
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    opacity: 20%;
+}
+
+.layer1 {
+    color: rgb(133, 152, 187);
+    position: absolute;
+    font-size: 70px;
+    line-height: 40px;
+    opacity: 20%;
+}
+
+.layer2 {
+    color: rgb(133, 152, 187);
+    position: absolute;
+    font-size: 120px;
+    line-height: 40px;
+    opacity: 25%;
+}
+
+.layer3 {
+    color: rgb(133, 152, 187);
+    position: absolute;
+    font-size: 100px;
+    line-height: 40px;
+    opacity: 20%;
+}
+
+.layer4 {
+    color: rgb(133, 152, 187);
+    position: absolute;
+    font-size: 50px;
+    line-height: 40px;
+    opacity: 30%;
+    margin-top: 600px;
 }
