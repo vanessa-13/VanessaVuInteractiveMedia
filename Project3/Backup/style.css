@@ -1,0 +1,294 @@
+
+.head {
+    font-size: 50px;
+    color: rgb(228, 227, 178);
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.subhead {
+    font-size: 25px;
+    color: rgb(228, 227, 178);
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.leaves {
+    position: absolute;
+}
+
+.ant {
+    position: absolute;
+    padding-top: 4500px;
+    padding-left: 1200px;
+}
+
+.beetle {
+    position: absolute;
+    padding-top: 2400px;
+    padding-left: 2200px;
+}
+
+.caterpillar {
+    position: absolute;
+    padding-top: 1500px;
+    padding-left: 1200px;
+}
+
+.cricket {
+    position: absolute;
+    padding-top: 3600px;
+    padding-left: 2000px;
+}
+
+.ladybug {
+    position: absolute;
+    padding-top: 3100px;
+    padding-left: 800px;
+}
+
+.bee {
+    position: absolute;
+    padding-left: 2000px;
+    padding-top: 500px;
+}
+
+.bottomflowers {
+    position: absolute;
+}
+
+.sunflower {
+    position: absolute;
+    padding-left: 2000px;
+}
+
+.sunflower1 {
+    position: absolute;
+    padding-left: 1300px;
+    padding-top: 250px;
+}
+
+.sunflower2 {
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 400px;
+}
+
+.sunflower3 {
+    position: absolute;
+    padding-left: 1300px;
+    padding-top: 400px;
+}
+
+.sunflower4 {
+    position: absolute;
+    padding-left: 2000px;
+    padding-top: 600px;
+}
+
+.hydrangea {
+    position: absolute;
+    padding-top: 700px;
+}
+
+.hydrangea1 {
+    position: absolute;
+    padding-top: 1100px;
+    padding-left: 500px;
+}
+
+.hydrangea2 {
+    position: absolute;
+    padding-top: 700px;
+    padding-left: 900px;
+}
+
+.hydrangea3 {
+    position: absolute;
+    padding-top: 1300px;
+}
+
+.hydrangea4 {
+    position: absolute;
+    padding-top: 1400px;
+    padding-left: 900px;
+}
+
+.hydrangea5 {
+    position: absolute;
+    padding-top: 1200px;
+    padding-left: 1900px;
+}
+
+.dhalia {
+    position: absolute;
+    padding-top: 1900px;
+    padding-left: 2000px;
+}
+
+.dhalia1 {
+    position: absolute;
+    padding-top: 2100px;
+    padding-left: 1500px;
+}
+
+.dhalia2 {
+    position: absolute;
+    padding-top: 2600px;
+    padding-left: 2000px;
+}
+
+.dhalia3 {
+    position: absolute;
+    padding-top: 2900px;
+    padding-left: 1500px;
+}
+
+.dhalia4 {
+    position: absolute;
+    padding-top: 2100px;
+    padding-left: 900px;
+}
+
+.rose {
+    position: absolute;
+    padding-top: 2000px;
+}
+
+.rose1 {
+    position: absolute;
+    padding-top: 2600px;
+}
+
+.rose2 {
+    position: absolute;
+    padding-top: 2800px;
+    padding-left: 800px;
+}
+
+.rose3 {
+    position: absolute;
+    padding-top: 3300px;
+}
+
+.rose4 {
+    position: absolute;
+    padding-top: 3400px;
+    padding-left: 900px;
+}
+
+.daisy {
+    position: absolute;
+    padding-top: 3800px;
+}
+
+.daisy1 {
+    position: absolute;
+    padding-top: 3500px;
+    padding-left: 1000px;
+}
+
+.daisy2 {
+    position: absolute;
+    padding-top: 3800px;
+    padding-left: 1600px;
+}
+
+.daisy3 {
+    position: absolute;
+    padding-top: 3800px;
+    padding-left: 2000px;
+}
+
+.daisy4 {
+    position: absolute;
+    padding-top: 3200px;
+    padding-left: 2000px;
+}
+
+.cosmo {
+    position: absolute;
+    padding-top: 4200px;
+}
+
+.cosmo1 {
+    position: absolute;
+    padding-top: 4000px;
+    padding-left: 700px;
+}
+
+.cosmo2 {
+    position: absolute;
+    padding-top: 4600px;
+    padding-left: 400px;
+}
+
+.cosmo3 {
+    position: absolute;
+    padding-top: 4500px;
+    padding-left: 1200px;
+}
+
+.cosmo4 {
+    position: absolute;
+    padding-top: 4200px;
+    padding-left: 1800px;
+}
+
+.cosmo5 {
+    position: absolute;
+    padding-top: 4500px;
+    padding-left: 1800px;
+}
+
+.grass {
+    position: absolute;
+    padding-top: 3700px;
+}
+
+.sunflowers {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.hydrangeas {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+
+.dhalias {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sunfl:hover > * {
+    opacity: 0%;
+}
+
+.hydra:hover > * {
+    opacity: 0%;
+}
+
+.dhal:hover > * {
+    opacity: 0%;
+}
+
+.roses:hover {
+    opacity: 0%;
+}
+
+.daisies:hover {
+    opacity: 0%;
+}
+
+.cosmos:hover {
+    opacity: 0%;
+}
